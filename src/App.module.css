@@ -1,0 +1,167 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.createTask {
+  width: 46rem;
+  margin-top: -1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.createTask input {
+  border: 1px solid var(--gray-700);
+  background: var(--gray-500);
+  color: var(--gray-100);
+  border-radius: 8px;
+  padding: 1rem;
+  flex: 1;
+}
+
+.createTask button {
+  background-color: var(--blue-dark);
+  color: var(--gray-100);
+  border: 0;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 8px;
+  gap: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.createTask button:hover {
+  background-color: var(--blue);
+}
+
+.todoList {
+  width: 46rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todoList header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.createdTasks {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.createdTasks h4 {
+  color: var(--blue);
+}
+
+.createdTasks span {
+  color: var(--gray-200);
+  background: var(--gray-400);
+  padding: 0.125rem 0.7rem;
+  border-radius: 24px;
+  font-weight: bold;
+}
+
+.doneTask {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.doneTask h4 {
+  color: var(--purple);
+}
+
+.doneTask span {
+  color: var(--gray-200);
+  background: var(--gray-400);
+  padding: 0.125rem 0.7rem;
+  border-radius: 24px;
+  font-weight: bold;
+}
+
+.empytContent {
+  width: 46rem;
+}
+
+.empytList {
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.empytList svg {
+ color: var(--gray-400);
+}
+
+.empytList p {
+  text-align: center;
+  line-height: 1.4;
+}
+
+.empytList p span {
+  font-weight: bold;
+}
+
+.divisor {
+  width: 100%;
+  height: 1px;
+  background-color: var(--gray-400);
+  margin-top: 1.5rem;
+}
+
+.list {
+  margin-top: 1.5rem;
+  width: 46rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  border-radius: 8px;
+  
+}
+
+.list li div {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.list li div button {
+  border: 0;
+  background: transparent;
+  color: var(--blue);
+  line-height: 0;
+  cursor: pointer;
+}
+
+.list li button {
+  border: 0;
+  background: transparent;
+  color: var(--gray-300);
+  line-height: 0;
+  cursor: pointer;
+}
